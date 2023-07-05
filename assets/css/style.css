@@ -31,6 +31,12 @@
     border: 1px solid red;
 }
 
+.debug .info, .socialmedia{
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
 
 
 
@@ -54,10 +60,6 @@
 .d_flex{
     display: flex;
 }
-
-
-
-
 
 
 
@@ -96,3 +98,22 @@ nav > .container{
     width: calc(96% / 12 *4);
     margin: 2rem 0;
 }
+
+
+
+
+/* Footer */
+
+footer{
+    background-color: var(--tm--bl-footer);
+}
+
+footer .container{
+    justify-content: space-between;
+}
+
+.container .info, .socialmedia{
+    width: calc(100% / 12 * 6);
+    margin: 2rem 0;
+}
+

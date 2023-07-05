@@ -25,6 +25,12 @@
     border: 1px solid red;
 }
 
+.debug .goodie{
+    height: 500px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
 
 
 
@@ -70,4 +76,23 @@
 
 nav > .container{
     justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+/* Main */
+
+.main_shop .container{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_shop .goodie{
+    width: calc(96% / 12 *4);
+    margin: 2rem 0;
 }

@@ -94,11 +94,7 @@ body{
     background-color: var(--tm--bl-footer);
 }
 
-
-
-
 /* #endregion Debug */
-
 
 /* #region Utility */
 
@@ -133,8 +129,10 @@ h5{
 
 header{
     background-color: var(--tm--bl-orange);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
-
 
 nav a{
     color: white;
@@ -182,10 +180,15 @@ nav > .container{
 
 /* #region Main */
 
+main{
+    margin-top: 4rem;
+}
+
 .main_shop .container{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 .main_shop .goodie{
     width: calc(98% / 12 *4);

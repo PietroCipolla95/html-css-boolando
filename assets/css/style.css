@@ -117,6 +117,14 @@ a{
     display: flex;
 }
 
+h2{
+    font-size: 20px;
+}
+
+h5{
+    font-weight: lighter;
+}
+
 
 
 /* #endregion Utility */
@@ -126,6 +134,7 @@ a{
 header{
     background-color: var(--tm--bl-orange);
 }
+
 
 nav a{
     color: white;
@@ -179,13 +188,22 @@ nav > .container{
 }
 
 .main_shop .goodie{
-    width: calc(96% / 12 *4);
+    width: calc(98% / 12 *4);
     margin: 2rem 0;
 }
 
 .goodie{
     padding: 1rem;
     flex-direction: column;
+}
+
+.discount{
+    font-weight: bold;
+    color: var(--tm--bl-red);
+}
+
+.fullprice{
+    text-decoration: line-through;
 }
 
 /* #endregion Main */

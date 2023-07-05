@@ -283,6 +283,10 @@ footer a:hover{
     color: var(--tm--bl-orange);
 }
 
+.like i:hover{
+    color: var(--tm--bl-red);
+}
+
 
 
 
@@ -311,6 +315,14 @@ footer a:hover{
 .sustain{
     background-color: var(--tm--bl-green);
     left: 58px;
+}
+
+.like{
+    position: absolute;
+    background-color: white;
+    padding: 0.8rem 0.6rem;
+    top: 10px;
+    right: 0;
 }
 
 /* #endregion Absolute items */

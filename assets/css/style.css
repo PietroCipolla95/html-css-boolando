@@ -37,6 +37,14 @@
     border: 1px solid red;
 }
 
+.debug .menu > a, .debug .user > a{
+    height: 50px;
+    background-color: black;
+    border: 1px solid red;
+}
+
+
+
 
 
 
@@ -63,7 +71,6 @@
 
 
 
-
 /* #endregion Utility */
 
 /* Header */
@@ -78,6 +85,26 @@
 
 nav > .container{
     justify-content: space-between;
+}
+
+.menu > a{
+    width: 30%;
+    padding: 1rem;
+}
+
+.user > a{
+    width: 30%;
+    padding: 1rem;
+}
+
+.menu{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user{
+    justify-content: flex-end;
+    align-items: center;
 }
 
 

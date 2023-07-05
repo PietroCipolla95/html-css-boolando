@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --tm--bl-orange: #FF6900;
+    --tm--bl-footer: #1A1A1A;
+    --tm--bl-red: #FF0000;
+    --tm--bl-green: #008000;
+    --tm--bl-items: #2D2D27;
+}

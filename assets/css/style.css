@@ -11,3 +11,63 @@
     --tm--bl-green: #008000;
     --tm--bl-items: #2D2D27;
 }
+
+/* #region Debug */
+
+.debug header{
+    height: 100px;
+    background-color: var(--tm--bl-orange);
+}
+
+.debug .menu, .logo, .user{
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+/* #endregion Debug */
+
+
+/* #region Utility */
+
+.container{
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.d_flex{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+/* #endregion Utility */
+
+/* Header */
+
+.menu, .user{
+    width: calc(100% / 12 * 4);
+}
+
+.logo{
+    width: calc(100% / 12 * 8);
+}
+
+nav > .container{
+    justify-content: space-between;
+}

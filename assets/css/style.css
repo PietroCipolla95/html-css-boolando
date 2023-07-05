@@ -115,12 +115,25 @@ a{
 
 h2{
     font-size: 20px;
+    color: var(--tm--bl-items);
+}
+
+h6{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+h4{
+    font-size: 20px;
 }
 
 h5{
-    font-weight: lighter;
+    padding-right: 0.5rem;
 }
 
+h4, h5{
+    margin-bottom: 1rem;
+}
 
 
 /* #endregion Utility */
@@ -189,6 +202,10 @@ main{
     justify-content: space-between;
 }
 
+img{
+    width: 100%;
+}
+
 
 .main_shop .goodie{
     width: calc(98% / 12 *4);
@@ -228,13 +245,6 @@ footer .container{
     font-size: 10px;
 }
 
-h4{
-    font-size: 20px;
-}
-
-h4, h5{
-    margin-bottom: 1rem;
-}
 
 .info, .socialmedia{
     width: calc(100% / 12 * 6);
@@ -260,3 +270,36 @@ h4, h5{
 }
 
 /* #endregion Footer */
+
+/* #region Hover */
+
+
+nav a:hover{
+    color: var(--tm--bl-footer);
+}
+
+footer a:hover{
+    color: var(--tm--bl-orange);
+}
+
+
+
+
+
+/* #endregion Hover */
+
+
+
+.showitem{
+    position: relative;
+}
+
+.sale{
+    background-color: var(--tm--bl-red);
+    color: white;
+    font-weight: bold;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: 45px;
+    left: 0px;
+}

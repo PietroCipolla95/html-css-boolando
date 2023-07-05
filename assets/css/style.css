@@ -145,6 +145,7 @@ header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1000000000;
 }
 
 nav a{
@@ -288,18 +289,28 @@ footer a:hover{
 
 /* #endregion Hover */
 
-
+/* #region Absolute items */
 
 .showitem{
     position: relative;
 }
 
-.sale{
-    background-color: var(--tm--bl-red);
+.sale, .sustain{
     color: white;
     font-weight: bold;
-    padding: 0.2rem;
+    font-size: 15px;
+    padding: 0.2rem 0.6rem;
     position: absolute;
     bottom: 45px;
+}
+.sale{
+    background-color: var(--tm--bl-red);
     left: 0px;
 }
+
+.sustain{
+    background-color: var(--tm--bl-green);
+    left: 58px;
+}
+
+/* #endregion Absolute items */

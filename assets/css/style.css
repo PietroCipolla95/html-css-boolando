@@ -220,7 +220,7 @@ img{
     flex-direction: column;
 }
 
-.discount{
+.saleprice{
     font-weight: bold;
     color: var(--tm--bl-red);
 }

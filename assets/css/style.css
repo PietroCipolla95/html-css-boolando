@@ -197,7 +197,7 @@ nav > .container{
 /* #region Main */
 
 main{
-   padding-top: 4rem;
+   padding: 3.5rem;
 }
 
 .main_shop .container{
@@ -209,9 +209,8 @@ img{
     width: 100%;
 }
 
-
 .main_shop .goodie{
-    width: calc(100% / 12 *4);
+    width: 385px;
     margin: 2rem 0;
 }
 

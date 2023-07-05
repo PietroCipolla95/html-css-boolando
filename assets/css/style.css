@@ -61,6 +61,12 @@
     border: 1px solid red;
 }
 
+.debug .goodie > *{
+    height: 25%;
+    background-color: black;
+    border: 1px solid red;
+}
+
 
 
 
@@ -84,7 +90,7 @@
 
 /* #endregion Utility */
 
-/* Header */
+/* #region Header */
 
 .menu, .user{
     width: calc(100% / 12 * 4);
@@ -119,11 +125,7 @@ nav > .container{
 }
 
 
-
-
-
-
-
+/* #endregion Header */
 
 /* Main */
 
@@ -137,8 +139,10 @@ nav > .container{
     margin: 2rem 0;
 }
 
-
-
+.goodie{
+    padding: 1rem;
+    flex-direction: column;
+}
 
 /* Footer */
 

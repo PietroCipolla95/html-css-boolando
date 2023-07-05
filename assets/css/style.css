@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 :root{
     --tm--bl-orange: #FF6900;
     --tm--bl-footer: #1A1A1A;
@@ -19,7 +24,19 @@
     background-color: var(--tm--bl-orange);
 }
 
-.debug .menu, .logo, .user{
+.debug .menu{
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
+.debug .user{
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
+.debug .logo{
     height: 100px;
     background-color: gray;
     border: 1px solid red;
@@ -31,7 +48,13 @@
     border: 1px solid red;
 }
 
-.debug .info, .socialmedia{
+.debug .info{
+    height: 100px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
+.debug .socialmedia{
     height: 100px;
     background-color: gray;
     border: 1px solid red;
@@ -67,6 +90,10 @@
     border: 1px solid red;
 }
 
+.debug footer{
+    background-color: var(--tm--bl-footer);
+}
+
 
 
 
@@ -74,6 +101,10 @@
 
 
 /* #region Utility */
+
+a{
+    text-decoration: none;
+}
 
 .container{
     max-width: 1170px;
@@ -92,16 +123,29 @@
 
 /* #region Header */
 
+header{
+    background-color: var(--tm--bl-orange);
+}
+
+nav a{
+    color: white;
+}
+
+nav img{
+    width: 150px;
+}
+
 .menu, .user{
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 2);
 }
 
 .logo{
-    width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 3);
 }
 
 nav > .container{
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu > a{
@@ -110,7 +154,7 @@ nav > .container{
 }
 
 .user > a{
-    width: 30%;
+    width: 10%;
     padding: 1rem;
 }
 
@@ -127,7 +171,7 @@ nav > .container{
 
 /* #endregion Header */
 
-/* Main */
+/* #region Main */
 
 .main_shop .container{
     flex-wrap: wrap;
@@ -144,11 +188,10 @@ nav > .container{
     flex-direction: column;
 }
 
-/* Footer */
+/* #endregion Main */
 
-footer{
-    background-color: var(--tm--bl-footer);
-}
+/* #region Footer */
+
 
 footer .container{
     justify-content: space-between;
@@ -177,3 +220,5 @@ footer .container{
     flex-direction: row;
     width: 10%;
 }
+
+/* #endregion Footer */

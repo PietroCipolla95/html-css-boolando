@@ -164,6 +164,7 @@ nav img{
 .logo{
     width: calc(100% / 12 * 3);
     padding-left: 1rem;
+    text-align: center;
 }
 
 nav > .container{

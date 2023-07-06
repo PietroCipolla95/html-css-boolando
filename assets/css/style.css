@@ -289,27 +289,27 @@ footer a:hover{
 }
 
 #img_one:hover{
-    content: url(/assets/img/1b.webp);
+    content: url(../img/1b.webp);
 }
 
 #img_two:hover{
-    content: url(/assets/img/2b.webp);
+    content: url(../img/2b.webp);
 }
 
 #img_three:hover{
-    content: url(/assets/img/3b.webp);
+    content: url(../img/3b.webp);
 }
 
 #img_four:hover{
-    content: url(/assets/img/4b.webp);
+    content: url(../img/4b.webp);
 }
 
 #img_five:hover{
-    content: url(/assets/img/5b.webp);
+    content: url(../img/5b.webp);
 }
 
 #img_six:hover{
-    content: url(/assets/img/6b.webp);
+    content: url(../img/6b.webp);
 }
 
 

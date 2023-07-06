@@ -289,28 +289,20 @@ footer a:hover{
     color: var(--tm--bl-red);
 }
 
-#img_one:hover{
-    content: url(../img/1b.webp);
+.img-back, .img-front{
+    display: block;
 }
 
-#img_two:hover{
-    content: url(../img/2b.webp);
+.back{
+    display: none;
 }
 
-#img_three:hover{
-    content: url(../img/3b.webp);
+.img-item:hover .back{
+    display: block;
 }
 
-#img_four:hover{
-    content: url(../img/4b.webp);
-}
-
-#img_five:hover{
-    content: url(../img/5b.webp);
-}
-
-#img_six:hover{
-    content: url(../img/6b.webp);
+.img-item:hover .front{
+    display: none;
 }
 
 
